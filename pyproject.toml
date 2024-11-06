@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "automation-python-ticket-desk-manager"
+version = "0.1.0"
+description = ""
+authors = ["JCode Innovations"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+pytelegrambotapi = "^4.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
